@@ -20,9 +20,7 @@ echo "The effective dev container containerUser's home directory is '$_CONTAINER
 echo "HULLLLOOOOOO"
 apt-get update -y
 apt-get install software-properties-common -y
-REPO="ppa:serokell/tezos"
-add-apt-repository -y $REPO
+add-apt-repository -y "ppa:serokell/tezos"
 apt-get update
-sleep 60
 apt-get install -y tezos-client
 # sudo apt-get install -y tezos-node
