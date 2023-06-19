@@ -23,5 +23,6 @@ apt-get update -y \
 && REPO="ppa:serokell/tezos" \
 && add-apt-repository -y $REPO \
 && apt-get update \
-# && apt-get install -y tezos-client
+&& sleep 10 \
+&& apt-get install -y tezos-client
 # sudo apt-get install -y tezos-node
