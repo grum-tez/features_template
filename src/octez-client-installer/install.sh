@@ -2,7 +2,7 @@
 set -e
 set -x
 
-echo "Activating feature 'octez-client'"
+echo "Activating feature 'octez-client-prep'"
 
 
 # The 'install.sh' entrypoint script is always executed as the root user.
@@ -17,10 +17,9 @@ echo "The effective dev container remoteUser's home directory is '$_REMOTE_USER_
 echo "The effective dev container containerUser is '$_CONTAINER_USER'"
 echo "The effective dev container containerUser's home directory is '$_CONTAINER_USER_HOME'"
 
-echo "HULLLLOOOOOO"
 apt-get update -y
 apt-get install software-properties-common -y
 add-apt-repository -y "ppa:serokell/tezos"
 apt-get update
-apt-get install -y tezos-client
+# apt-get install -y tezos-client
 # sudo apt-get install -y tezos-node
