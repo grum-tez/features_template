@@ -1,7 +1,7 @@
 
 # octez-client installer (octez-client-installer)
 
-A feature to remind you of your favorite color
+A feature to install octez-client on ubuntu 22.04 (Jammy)
 
 ## Example Usage
 
