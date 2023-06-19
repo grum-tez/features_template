@@ -1,7 +1,7 @@
 {
   "name": "octez-client installer",
   "id": "octez-client-installer",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A feature to install octez-client on ubuntu 22.04 (Jammy)",
   "installsAfter": ["ghcr.io/devcontainers/features/common-utils"]
 }
