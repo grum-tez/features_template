@@ -3,7 +3,5 @@
   "id": "octez-client-finisher",
   "version": "1.0.0",
   "description": "A feature to run the final line of installing octez-client on ubuntu 22.04 (Jammy)",
-  "installsAfter": [
-    "ghcr.io/grum-tez/features_template/octez-client-installer"
-  ]
+  "installsAfter": ["ghcr.io/grum-tez/features_template/octez-client-installer"]
 }
