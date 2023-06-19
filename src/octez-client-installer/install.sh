@@ -18,11 +18,11 @@ echo "The effective dev container containerUser is '$_CONTAINER_USER'"
 echo "The effective dev container containerUser's home directory is '$_CONTAINER_USER_HOME'"
 
 echo "HULLLLOOOOOO"
-apt-get update -y \
-&& apt-get install software-properties-common -y \
-&& REPO="ppa:serokell/tezos" \
-&& add-apt-repository -y $REPO \
-&& apt-get update \
-&& sleep 10 \
-&& apt-get install -y tezos-client
+apt-get update -y
+apt-get install software-properties-common -y
+REPO="ppa:serokell/tezos"
+add-apt-repository -y $REPO
+apt-get update
+sleep 60
+apt-get install -y tezos-client
 # sudo apt-get install -y tezos-node
