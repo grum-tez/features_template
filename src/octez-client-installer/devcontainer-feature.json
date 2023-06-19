@@ -2,6 +2,6 @@
   "name": "octez-client installer",
   "id": "octez-client-installer",
   "version": "1.0.0",
-  "description": "A feature to remind you of your favorite color",
+  "description": "A feature to install octez-client on ubuntu 22.04 (Jammy)",
   "installsAfter": ["ghcr.io/devcontainers/features/common-utils"]
 }
