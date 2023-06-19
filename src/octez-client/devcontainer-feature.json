@@ -1,0 +1,7 @@
+{
+  "name": "octez-client installer",
+  "id": "octez-client-installer",
+  "version": "1.0.0",
+  "description": "A feature to remind you of your favorite color",
+  "installsAfter": ["ghcr.io/devcontainers/features/common-utils"]
+}
