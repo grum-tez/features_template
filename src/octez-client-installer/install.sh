@@ -21,5 +21,3 @@ apt-get update -y
 apt-get install software-properties-common -y
 add-apt-repository -y "ppa:serokell/tezos"
 apt-get update
-# apt-get install -y tezos-client
-# sudo apt-get install -y tezos-node
