@@ -2,7 +2,7 @@
 set -e
 set -x
 
-echo "Activating feature 'octez-client-prep'"
+echo "Activating feature 'bug_demo'"
 
 
 # The 'install.sh' entrypoint script is always executed as the root user.
