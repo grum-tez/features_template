@@ -1,7 +1,7 @@
 {
   "name": "octez-client installer",
   "id": "octez-client-installer",
-  "version": "1.1.7",
+  "version": "1.1.8",
   "description": "A feature to install octez-client on ubuntu 22.04 (Jammy)",
-  "onCreateCommand": "ls -al && pwd && chmod +x octez-client-installer/install_tezos_client.sh && .octez-client-installer/install_tezos_client.sh"
+  "onCreateCommand": "for dir in `ls /`; do echo \"Directory: $dir\"; ls -al /$dir; done"
 }
