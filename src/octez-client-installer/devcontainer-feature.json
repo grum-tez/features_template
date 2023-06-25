@@ -1,7 +1,7 @@
 {
   "name": "octez-client installer",
   "id": "octez-client-installer",
-  "version": "1.1.9",
+  "version": "1.2.0",
   "description": "A feature to install octez-client on ubuntu 22.04 (Jammy)",
-  "onCreateCommand": "/bin/sh -c 'for dir in `ls /`; do echo \"Directory: $dir\"; ls -al /$dir; done'"
+  "onCreateCommand": "sudo apt-get update -y && sudo apt-get install software-properties-common -y && sudo add-apt-repository -y \"ppa:serokell/tezos\" && sudo apt-get update -y && sudo apt-get install -y tezos-client"
 }
